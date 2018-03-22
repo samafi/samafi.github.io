@@ -1,0 +1,465 @@
+body {
+	font-size: 100%;
+	margin: 0em;
+	padding: 0em;
+	font-family:sans-serif;
+}
+
+
+header {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-bottom: 0;
+  margin: 0;
+  height: 3.5em;
+  z-index: 100;
+}
+
+#dropbars {
+  color: black;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+
+
+}
+/* dropdown ist die ganze Nav, drop-content ist der Inhaltliche Teil. Die anchor werden unten gestaltet */
+.dropdown {
+  position: relative;
+  right: 1em;
+  top: 1em;
+  display: inline-block;
+  float: right;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f2f2f2;
+  padding: 50%;
+  box-shadow: 0 4px 8px 0;
+  min-width: 600%;
+  z-index: 20;
+}
+
+.drop-content a {
+  color: black;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: block;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.drop-content a:hover {
+  border-bottom: 2px solid #d7a2b9;
+
+
+}
+.dropdown:hover .drop-content {
+  display: block;
+}
+
+.Hintergrund {
+	width:100%;
+}
+
+
+
+
+#heading {
+  height: 30em;
+  width: 90%;
+  padding-top: 5em;
+  background-image: url(Bilder/hg2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding-left: 1em;
+}
+
+h1 {
+	color: #d7a2b9;
+	font-weight: 400;
+	font-size: 40px;
+	text-align: center; 
+}
+.text {
+	font-size: 16px;
+	line-height: 1.875em;
+	text-align: center;
+}
+section {
+	background-color: black;
+
+}
+section > div {
+	max-width: 82%;
+	padding-top: 1em;
+	height: 10em;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+section > div > img {
+	width: 100%;
+	height: auto;
+}
+#mk div {
+	width: 50%;
+	background-color: black;
+}
+
+button {
+	color: white;
+	background-color: black;
+	font-size: 1em;
+	border-style: none;
+	line-height: 5em;
+	font-size: 0.8em;
+}
+
+button:hover {
+	color:#d7a2b9;
+}
+
+
+.footer {
+  background-color: #303030;
+  padding-top: 40px;
+  text-align: center;
+  padding-right: 3em;
+}
+.footer: hover {
+	color: #d7a2b9;
+}
+ footer ul li {
+ display: block;
+}
+footer ul li a {
+	color: #f2f2f2;
+	text-decoration: none;
+	line-height: 2em;
+}
+footer ul li a:hover {
+	color: #d7a2b9;
+
+	}
+h5{
+	color: #d7a2b9;
+	font-size: 16px;	
+}
+footer hr.divider {
+  display: block;
+  background: -webkit-linear-gradient(#242424, #3c3c3c);
+  background: -moz-linear-gradient(#242424, #3c3c3c);
+  background: -o-linear-gradient(#242424, #3c3c3c);
+  background: linear-gradient(#242424, #3c3c3c);
+  margin: 30px auto;
+  height: 3px;
+  border: 0;
+}
+footer .copyright {
+  font-size: 14px;
+  color: #686868;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.hfu{
+	width: 7em;
+	text-align: center;
+}
+#nummer0{
+	width: 100%;
+	height: 10em;
+	padding-left: 1.5em;
+}
+#nummer1{
+	width: 100%;
+	height: 10em;
+	padding-left: 1.5em;
+}
+#nummer2{
+	width: 100%;
+	height: 10em;
+	padding-left: 1.5em;
+}
+#nummer3{
+	width: 100%;
+	height: 10em;
+	padding-left: 1.5em;
+}
+#nummer4{
+	width: 100%;
+	height: 10em;
+	padding-left: 1em;
+}
+#nummer5{
+	width: 100%;
+	height: 10em;
+	padding-left: 1em;
+}	
+#nummer6{
+	width: 55%;
+}
+#nummer7{
+	width: 55%;
+}
+#nummer8{
+	width: 55%;
+}
+#nummer9{
+	width: 55%;
+}
+#nummer10{
+	width: 55%;
+}
+#nummer11{
+	width: 55%;
+}
+
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 36.625em) {
+	
+button {
+	color: white;
+	background-color: black;
+	font-size: 1.1em;
+}
+
+
+section > div {
+
+	width: 50%;
+}
+#nummer0{
+	width: 100%;
+	height: 20em;
+	padding-left: 3em;
+}
+#nummer1{
+	width: 100%;
+	height: 20em;
+	padding-left: 3em;
+}
+#nummer2{
+	width: 100%;
+	height: 20em;
+	padding-left: 3em;
+}
+#nummer3{
+	width: 100%;
+	height: 25em;
+	padding-left: 3em;
+}
+#nummer4{
+	width: 100%;
+	height: 20em;
+	padding-left: 3em;
+}
+#nummer5{
+	width: 100%;
+	height: 20em;
+	padding-left: 3em;
+}	
+#nummer6{
+	width: 30%;	
+}
+#nummer7{
+	width: 30%;	
+}
+#nummer8{
+	width: 30%;
+}
+#nummer9{
+	width: 30%;
+}
+#nummer10{
+	width: 30%;
+}
+#nummer11{
+	width: 30%;
+}
+
+/* Tablet Landscape Ansicht*/ 
+
+@media screen and (min-width: 48em) { /* entspricht 768px @16px */
+
+
+footer {
+	clear: both;
+}
+
+button {
+	color: white;
+	background-color: black;
+	border-style: none;
+	line-height: 3em;
+	font-size: 1.5em;
+	text-align: center;
+	clear: both;
+}
+#nummer0{
+	width: 70%;
+	height: 24em;
+	padding-left: 9em;
+}
+#nummer1{
+	width: 70%;
+	height: 24em;
+	padding-left: 9em;
+}
+#nummer2{
+	width: 70%;
+	height: 24em;
+	padding-left: 9em;
+}
+#nummer3{
+	width: 70%;
+	height: 29em;
+	padding-left: 9em;
+}
+#nummer4{
+	width: 100%;
+	height: 24em;
+	padding-left: 3em;
+}
+#nummer5{
+	width: 100%;
+	height: 24em;
+	padding-left: 3em;
+}	
+#nummer6{
+	width: 20%;
+		
+}
+#nummer7{
+	width: 20%;	
+}
+#nummer8{
+	width: 20%;
+}
+#nummer9{
+	width: 20%;
+}
+#nummer10{
+	width: 20%;
+}
+#nummer11{
+	width: 20%;
+}
+
+
+
+/* Desktop Anischt*/
+
+@media screen and (min-width: 64em) { 
+
+h1 {
+	padding-left: 10em;
+	padding-bottom: 50px;
+	font-size: 64px;
+	margin-top: 21px;	
+	margin-bottom: 10.5px;
+	
+}
+#heading {
+  background-size: 40em;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100px 20px;
+}
+	
+	
+.text {	
+	padding-left: 31em;
+	padding-bottom: 30px;
+	font-size: 19px;
+	line-height: 1.875em;
+	margin: 0 0 10.5px;
+	box-sizing: border-box;
+}
+
+section > div > img {
+	width: 50%;
+	height: auto;
+}
+
+#EIA {
+	width: 100%;
+}
+#nummer0{
+	width: 100%;
+	height: 20em;
+	padding-left: 7em;
+}
+#nummer1{
+	width: 100%;
+	height: 20em;
+	padding-left: 7em;
+}
+#nummer2{
+	width: 100%;
+	height: 20em;
+	padding-left: 7em;
+}
+#nummer3{
+	width: 100%;
+	height: 25em;
+	padding-left: 7em;
+}
+#nummer4{
+	width: 100%;
+	height: 20em;
+	padding-left: 7em;
+}
+#nummer5{
+	width: 100%;
+	height: 20em;
+	padding-left: 7em;
+}	
+#nummer6{
+	width: 50%;	
+	height: 20em;
+}
+#nummer7{
+	width: 50%;	
+	height: 20em;
+}
+#nummer8{
+	width: 50%;
+	height: 20em;
+}
+#nummer9{
+	width: 50%;
+	height: 20em;
+}
+#nummer10{
+	width: 50%;
+	height: 20em;
+}
+#nummer11{
+	width: 50%;
+	height: 20em;
+}
+
+
+
+
+
+
+}
+	
+
+
