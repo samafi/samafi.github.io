@@ -14,7 +14,7 @@ header {
   height: 3.5em;
   z-index: 100;
 }
-
+/*
 #dropbars {
   color: black;
   font-size: 2em;
@@ -25,6 +25,7 @@ header {
 
 }
 /* dropdown ist die ganze Nav, drop-content ist der Inhaltliche Teil. Die anchor werden unten gestaltet */
+/*
 .dropdown {
   position: relative;
   right: 1em;
@@ -62,26 +63,34 @@ header {
 .dropdown:hover .drop-content {
   display: block;
 }
-
+*/
 .Hintergrund {
 	width:100%;
 }
 
 
-
+main {
+	height: auto;
+}
 
 #heading {
-  height: 30em;
-  width: 90%;
+  height: auto;
+  width: 100%;
   padding-top: 5em;
-  background-image: url(Bilder/hg2.jpeg);
+  /*background-image: url(Bilder/hg2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  padding-left: 1em;
+  background-position: center;*/
+ 
 }
-
+#heading div {
+	width: 50%;
+	float: left;
+}
+#heading div img{
+	width: 100%;
+}
 h1 {
 	color: #d7a2b9;
 	font-weight: 400;
@@ -175,54 +184,7 @@ footer .copyright {
 	width: 7em;
 	text-align: center;
 }
-#nummer0{
-	width: 100%;
-	height: 10em;
-	padding-left: 1.5em;
-}
-#nummer1{
-	width: 100%;
-	height: 10em;
-	padding-left: 1.5em;
-}
-#nummer2{
-	width: 100%;
-	height: 10em;
-	padding-left: 1.5em;
-}
-#nummer3{
-	width: 100%;
-	height: 10em;
-	padding-left: 1.5em;
-}
-#nummer4{
-	width: 100%;
-	height: 10em;
-	padding-left: 1em;
-}
-#nummer5{
-	width: 100%;
-	height: 10em;
-	padding-left: 1em;
-}	
-#nummer6{
-	width: 55%;
-}
-#nummer7{
-	width: 55%;
-}
-#nummer8{
-	width: 55%;
-}
-#nummer9{
-	width: 55%;
-}
-#nummer10{
-	width: 55%;
-}
-#nummer11{
-	width: 55%;
-}
+
 
 
 
@@ -238,59 +200,12 @@ button {
 	font-size: 1.1em;
 }
 
-
+/*
 section > div {
 
 	width: 50%;
 }
-#nummer0{
-	width: 100%;
-	height: 20em;
-	padding-left: 3em;
-}
-#nummer1{
-	width: 100%;
-	height: 20em;
-	padding-left: 3em;
-}
-#nummer2{
-	width: 100%;
-	height: 20em;
-	padding-left: 3em;
-}
-#nummer3{
-	width: 100%;
-	height: 25em;
-	padding-left: 3em;
-}
-#nummer4{
-	width: 100%;
-	height: 20em;
-	padding-left: 3em;
-}
-#nummer5{
-	width: 100%;
-	height: 20em;
-	padding-left: 3em;
-}	
-#nummer6{
-	width: 30%;	
-}
-#nummer7{
-	width: 30%;	
-}
-#nummer8{
-	width: 30%;
-}
-#nummer9{
-	width: 30%;
-}
-#nummer10{
-	width: 30%;
-}
-#nummer11{
-	width: 30%;
-}
+*/
 
 /* Tablet Landscape Ansicht*/ 
 
@@ -310,55 +225,7 @@ button {
 	text-align: center;
 	clear: both;
 }
-#nummer0{
-	width: 70%;
-	height: 24em;
-	padding-left: 9em;
-}
-#nummer1{
-	width: 70%;
-	height: 24em;
-	padding-left: 9em;
-}
-#nummer2{
-	width: 70%;
-	height: 24em;
-	padding-left: 9em;
-}
-#nummer3{
-	width: 70%;
-	height: 29em;
-	padding-left: 9em;
-}
-#nummer4{
-	width: 100%;
-	height: 24em;
-	padding-left: 3em;
-}
-#nummer5{
-	width: 100%;
-	height: 24em;
-	padding-left: 3em;
-}	
-#nummer6{
-	width: 20%;
-		
-}
-#nummer7{
-	width: 20%;	
-}
-#nummer8{
-	width: 20%;
-}
-#nummer9{
-	width: 20%;
-}
-#nummer10{
-	width: 20%;
-}
-#nummer11{
-	width: 20%;
-}
+
 
 
 
@@ -367,27 +234,25 @@ button {
 @media screen and (min-width: 64em) { 
 
 h1 {
-	padding-left: 10em;
-	padding-bottom: 50px;
+	
 	font-size: 64px;
-	margin-top: 21px;	
-	margin-bottom: 10.5px;
+	
 	
 }
 #heading {
+	/*
   background-size: 40em;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 100px 20px;
+  background-position: 100px 20px;*/
 }
 	
 	
 .text {	
-	padding-left: 31em;
-	padding-bottom: 30px;
+	
 	font-size: 19px;
 	line-height: 1.875em;
-	margin: 0 0 10.5px;
+	
 	box-sizing: border-box;
 }
 
@@ -399,61 +264,6 @@ section > div > img {
 #EIA {
 	width: 100%;
 }
-#nummer0{
-	width: 100%;
-	height: 20em;
-	padding-left: 7em;
-}
-#nummer1{
-	width: 100%;
-	height: 20em;
-	padding-left: 7em;
-}
-#nummer2{
-	width: 100%;
-	height: 20em;
-	padding-left: 7em;
-}
-#nummer3{
-	width: 100%;
-	height: 25em;
-	padding-left: 7em;
-}
-#nummer4{
-	width: 100%;
-	height: 20em;
-	padding-left: 7em;
-}
-#nummer5{
-	width: 100%;
-	height: 20em;
-	padding-left: 7em;
-}	
-#nummer6{
-	width: 50%;	
-	height: 20em;
-}
-#nummer7{
-	width: 50%;	
-	height: 20em;
-}
-#nummer8{
-	width: 50%;
-	height: 20em;
-}
-#nummer9{
-	width: 50%;
-	height: 20em;
-}
-#nummer10{
-	width: 50%;
-	height: 20em;
-}
-#nummer11{
-	width: 50%;
-	height: 20em;
-}
-
 
 
 
